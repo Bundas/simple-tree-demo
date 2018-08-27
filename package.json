@@ -1,0 +1,36 @@
+{
+    "name": "test-app-fe",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@blueprintjs/core": "^3.3.0",
+        "@gql2ts/from-schema": "^1.8.2",
+        "@types/classnames": "^2.2.6",
+        "@types/lodash": "^4.14.116",
+        "apollo-cache-inmemory": "^1.2.8",
+        "apollo-client": "^2.4.0",
+        "apollo-link-http": "^1.5.4",
+        "classnames": "^2.2.6",
+        "graphql-client": "^2.0.1",
+        "graphql-tag": "^2.9.2",
+        "lodash": "^4.17.10",
+        "react": "^16.4.2",
+        "react-apollo": "^2.1.11",
+        "react-dom": "^16.4.2",
+        "react-scripts-ts": "2.17.0"
+    },
+    "scripts": {
+        "start": "react-scripts-ts start",
+        "build": "react-scripts-ts build",
+        "test": "react-scripts-ts test --env=jsdom",
+        "eject": "react-scripts-ts eject",
+        "g:r": "node scripts/generateResponses.js"
+    },
+    "devDependencies": {
+        "@types/jest": "^23.3.1",
+        "@types/node": "^10.7.2",
+        "@types/react": "^16.4.11",
+        "@types/react-dom": "^16.0.7",
+        "typescript": "^3.0.1"
+    }
+}
